@@ -14,7 +14,7 @@ const About = () => {
             <div className="about__data">
                 <Info/>
 
-                <p className='about__description'>I am a Computer Engineering student... currently studying in third year in PCCoE College in Pune ...I am currently learning react for front end and node js for backend
+                <p className='about__description'>My name is Vedant Patil and I am a computer engineering student at Pimpri Chinchwad College of Engineering in Pune. 
                 </p>
                 <a download=""  className="button button--flex">Download CV
                 {/* add ....  href = {CV} ....after download="" in above line */}
