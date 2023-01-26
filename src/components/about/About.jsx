@@ -13,16 +13,16 @@ const About = () => {
 
   return (
     <div className="about section"  id="about" >
-        <h2 className='section__title' data-aos = "fade-up">About me</h2>
-        <span className="section__subtitle" data-aos = "fade-up">My Introduction</span>
+        <h2 className='section__title' >About me</h2>
+        <span className="section__subtitle" >My Introduction</span>
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className='about__img' data-aos = "fade-right"/>
+            <img src={AboutImg} alt="" className='about__img' />
             <div className="about__data">
                 <Info/>
 
-                <p className='about__description' data-aos = "fade-left">My name is Vedant Patil and I am a computer engineering student at Pimpri Chinchwad College of Engineering in Pune. 
+                <p className='about__description' >My name is Vedant Patil and I am a computer engineering student at Pimpri Chinchwad College of Engineering in Pune. 
                 </p>
-                <a download=""  className="button button--flex" data-aos = "fade-up">Download CV
+                <a download=""  className="button button--flex" >Download CV
                 {/* add ....  href = {CV} ....after download="" in above line */}
                 
                 <svg

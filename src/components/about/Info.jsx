@@ -8,21 +8,21 @@ const Info = () => {
   return (
      <div className="about__info grid">
 
-        <div className="about__box" data-aos = "fade-left">
+        <div className="about__box" >
         <i class='bx bxl-github'></i>
             <h2 className="about__title">10+</h2>
             <span className="about__subtitle">Projects</span>
 
         </div>
 
-        <div className="about__box" data-aos = "fade-left">
+        <div className="about__box" >
         <i class='bx bxl-c-plus-plus'></i>
             <h3 className="about__title">500+</h3>
             <span className="about__subtitle">DSA Problems Solved</span>
 
         </div>
 
-        <div className="about__box" data-aos = "fade-left">
+        <div className="about__box" >
         <i class='bx bxs-certification' ></i>
             <h3 className="about__title">10+</h3>
             <span className="about__subtitle">Certificates</span>
