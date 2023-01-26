@@ -10,7 +10,7 @@ const Header = () => {
         Aos.init({duration:200});
         }, [])
   return (
-    <header className="header" data-aos = "fade-down">
+    <header className="header" >
         <nav className="nav container" >
             <a href="index.html" className="nav__logo">Vedant</a>
             <div className = { Toggle ? "nav__menu show-menu" : "nav__menu"}>
