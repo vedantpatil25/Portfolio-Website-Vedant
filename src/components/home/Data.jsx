@@ -88,7 +88,7 @@ const Data = () => {
           <div className="subline">Programmer</div>
           <div className="subline">Developer</div>
         </h3>
-        <p className="home__description">Hey, there! My name is Vedant and I am a 21-year-old Computer Science student. I am particularly passionate about web development, and this website is an attempt to showcase my skills in that domain. </p>
+        <p className="home__description">Hey, there! My name is Vedant and I am a 21-year-old <span className='home__description-highlight'>Computer Science student</span>. I am particularly passionate about <span className='home__description-highlight'>web development</span>, and this website is an attempt to showcase my skills in that domain. </p>
 
         <a href="mailto:vedantpatil2002@gmail.com?subject=Hello from Abstract!&body=Just popped in to say hello" className='button button--flex sayhelloButton '>Say Hello
         <svg
