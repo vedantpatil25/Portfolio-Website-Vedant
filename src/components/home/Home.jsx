@@ -1,17 +1,23 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./home.css";
 import Social from './Social'
 import Data from './Data';
 import ScrollDown from './ScrollDown';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 const Home = () => {
+    useEffect(()=>{
+        Aos.init({duration:3000});
+        }, [])
+
   return (
     <>
-    <section className='home section' id = 'home'>
+    <section className='home section' id = 'home' data-aos ="zoom-out">
         <div className="home__container container grid">
             <div className="home__content grid">
 
                 <Social/>
-                <div className="home__img"></div>
+                <div className="home__img" data-aos = "fade-left"></div>
                 <Data/>
 
             </div>

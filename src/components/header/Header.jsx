@@ -1,13 +1,17 @@
-import React, { useState } from 'react'
+import React, { useState ,useEffect} from 'react'
 import "./header.css"
+import CV from "../../assets/Vedant-resume.pdf"
+import Aos from 'aos';
 const Header = () => {
     // TOGGLE MENU------------------------------------------------------------------
     const[Toggle, showMenu] = useState(false);
     //change in nav__menu class and nav__toggle changing according to value of toggle
-
+    useEffect(()=>{
+        Aos.init({duration:200});
+        }, [])
   return (
-    <header className="header">
-        <nav className="nav container">
+    <header className="header" data-aos = "fade-down">
+        <nav className="nav container" >
             <a href="index.html" className="nav__logo">Vedant</a>
             <div className = { Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">
