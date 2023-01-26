@@ -5,8 +5,7 @@
     top: 0;
     bottom: 0;
     z-index: var(--z-fixed);
-    /* background-color: var(--body-color); */
-    background-image: linear-gradient(rgb(134,84,134,.75),hsl(var(--hue), var(--sat), 98%) );
+    background-image: linear-gradient(rgb(134,84,134,.5),hsl(var(--hue), var(--sat), 98%) );
     
 
 }
@@ -131,7 +130,7 @@ for smaller devices */
 @media screen and (max-width: 769px) {
     .header
     {
-        background-image: linear-gradient(hsl(var(--hue), var(--sat), 98%) , rgb(134,84,134,.75));
+        background-image: linear-gradient(hsl(var(--hue), var(--sat), 98%) , rgb(134,84,134,.5));
 
     }
 }
