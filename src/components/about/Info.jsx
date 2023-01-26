@@ -5,23 +5,23 @@ const Info = () => {
      <div className="about__info grid">
 
         <div className="about__box">
-        <i class='bx bx-award about__icon' ></i>
-            <h3 className="about__title">Title-1</h3>
-            <span className="about__subtitle">subtitle1</span>
+        <i class='bx bxl-github'></i>
+            <h2 className="about__title">10+</h2>
+            <span className="about__subtitle">Projects</span>
 
         </div>
 
         <div className="about__box">
-        <i class='bx bx-briefcase about__icon' ></i>
-            <h3 className="about__title">Title-2</h3>
-            <span className="about__subtitle">2.give them classname as about__icons</span>
+        <i class='bx bxl-c-plus-plus'></i>
+            <h3 className="about__title">500+</h3>
+            <span className="about__subtitle">DSA Problems Solved</span>
 
         </div>
 
         <div className="about__box">
-        <i class='bx bx-support about__icon' ></i>
-            <h3 className="about__title">Title-3</h3>
-            <span className="about__subtitle">3.copy font line</span>
+        <i class='bx bxs-certification' ></i>
+            <h3 className="about__title">10+</h3>
+            <span className="about__subtitle">Certificates</span>
 
         </div>
 
