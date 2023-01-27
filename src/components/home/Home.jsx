@@ -9,17 +9,17 @@ import "aos/dist/aos.css";
 const Home = () => {
 
     useEffect(() => {
-        Aos.init({duration:1500});
+        Aos.init({duration:2000});
       },[]);
 
   return (
     <>
     <section className='home section' id = 'home' >
         <div className="home__container container grid">
-            <div className="home__content grid" data-aos = 'zoom-out'>
+            <div className="home__content grid" >
 
                 <Social/>
-                <div className="home__img"></div>
+                <div className="home__img" data-aos="fade-up"></div>
                 <Data/>
 
             </div>

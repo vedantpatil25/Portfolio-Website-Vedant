@@ -31,15 +31,15 @@ const Contact = () => {
       <h2 className="section__title" data-aos="fade-up">Get in Touch</h2>
       <span className="section__subtitle" data-aos="fade-up">Contact me</span>
 
-      <div className="contact__container container grid" data-aos="fade-up">
+      <div className="contact__container container grid" >
         <div className="contact__content">
-          <h3 className="contact__title">Talk to me</h3>
+          <h3 className="contact__title" data-aos="fade-up">Talk to me</h3>
 
           <div className="contact__info">
-            <div className="contact__card">
-              <i class="bx bx-envelope contact__card-icon"></i>
+            <div className="contact__card" data-aos="fade-up">
+              <i class="bx bx-envelope contact__card-icon" ></i>
 
-              <h3 className="contact__card-title">Email</h3>
+              <h3 className="contact__card-title" >Email</h3>
               <span className="conatact__card-data">
                 vedantpatil2002@gmail.com
               </span>
@@ -53,7 +53,7 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div className="contact__card" data-aos="fade-up">
               <i class="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-titlle">Whatsapp</h3>
               <span className="conatact__card-data">+919302793438</span>
@@ -67,7 +67,7 @@ const Contact = () => {
               </a>
             </div>
 
-            <div className="contact__card">
+            <div className="contact__card" data-aos="fade-up">
               <i class="bx bxl-linkedin contact__card-icon"></i>
 
               <h3 className="contact__card-title">Linkedin</h3>
@@ -85,9 +85,9 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title">Share Your Ideas</h3>
+          <h3 className="contact__title" data-aos="fade-up">Share Your Ideas</h3>
           <form ref={form} onSubmit={sendEmail} className="contact__form">
-            <div className="contact__form-div">
+            <div className="contact__form-div" data-aos="fade-up">
               <label className="contact__form-tag">Name</label>
               <input
                 type="text"
@@ -97,7 +97,7 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div">
+            <div className="contact__form-div" data-aos="fade-up">
               <label className="contact__form-tag">Email-id</label>
               <input
                 type="email"
@@ -107,7 +107,7 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div contact__form-area">
+            <div className="contact__form-div contact__form-area" data-aos="fade-up">
               <label className="contact__form-tag ">Description</label>
 
               <textarea
@@ -120,7 +120,7 @@ const Contact = () => {
             </div>
 
             <button
-              className="button button--flex"
+              className="button button--flex" data-aos="fade-up"
             >
               Click here to Send
               

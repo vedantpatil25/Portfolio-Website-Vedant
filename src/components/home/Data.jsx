@@ -1,9 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Data = () => {
+
+  useEffect(() => {
+    Aos.init({duration:1000});
+  },[]);
+
+
   return (
     <div className="home__data">
-        <h1 className="home__title">
+        <h1 className="home__title" data-aos ="fade-up">
           <span class="title__vedant">Vedant&nbsp;</span>
            <span className='title__patil'>Patil</span>
         {/* <svg
@@ -82,15 +90,15 @@ const Data = () => {
 
 
         </h1>
-        <h3 className="home__subtitle">
+        <h3 className="home__subtitle" data-aos ="fade-up">
           <div className="subline">Student</div>
           <div className="subline">Engineer</div>
           <div className="subline">Programmer</div>
           <div className="subline">Developer</div>
         </h3>
-        <p className="home__description">Hey, there! My name is Vedant and I am a 21-year-old <span className='home__description-highlight'>Computer Science  Engineering student</span>. I am particularly passionate about <span className='home__description-highlight'>web development</span>, and this website is an attempt to showcase my skills in that domain. </p>
+        <p className="home__description" data-aos ="fade-up">Hey, there! My name is Vedant and I am a 21-year-old <span className='home__description-highlight'>Computer Science  Engineering student</span>. I am particularly passionate about <span className='home__description-highlight'>web development</span>, and this website is an attempt to showcase my skills in that domain. </p>
 
-        <a href="mailto:vedantpatil2002@gmail.com?subject=Hello from Abstract!&body=Just popped in to say hello" className='button button--flex sayhelloButton '>Say Hello
+        <a href="mailto:vedantpatil2002@gmail.com?subject=Hello from Abstract!&body=Just popped in to say hello" className='button button--flex sayhelloButton ' data-aos ="fade-up">Say Hello
         <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
