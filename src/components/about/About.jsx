@@ -1,17 +1,27 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import "./about.css"
 import Info from './Info';
 import AboutImg from "../../assets/profile.jpg";
 import CV from "../../assets/Vedant-resume.pdf"
+import Aos from 'aos';
+import "aos/dist/aos.css";
+
 const About = () => {
+
+useEffect(() => {
+  Aos.init({duration:300});
+},[]);
+
+
+
   return (
     <div className="about section" id="about">
-        <h2 className='section__title'>About me</h2>
-        <span className="section__subtitle">My Introduction</span>
+        <h2 className='section__title' data-aos = "fade-up">About me</h2>
+        <span className="section__subtitle" data-aos = "fade-up">My Introduction</span>
 
         <div className="about__container container grid">
-            <img src={AboutImg} alt="" className='about__img'/>
-            <div className="about__data">
+            <img src={AboutImg} alt="" className='about__img' data-aos = "zoom-out"/>
+            <div className="about__data" data-aos = "fade-up">
                 <Info/>
 
                 <p className='about__description'>My name is Vedant Patil and I am a third year computer engineering student at Pimpri Chinchwad College of Engineering in Pune. 
