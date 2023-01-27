@@ -6,8 +6,8 @@ const Header = () => {
     //change in nav__menu class and nav__toggle changing according to value of toggle
 
   return (
-    <header className="header" data-aos = "fade-down">
-        <nav className="nav container" >
+    <header className="header">
+        <nav className="nav container">
             <a href="index.html" className="nav__logo">Vedant</a>
             <div className = { Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">
