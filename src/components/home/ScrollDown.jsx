@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./home.css"
 const ScrollDown = () => {
   return (
     <div className='home__scroll'>
