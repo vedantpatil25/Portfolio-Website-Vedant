@@ -1,8 +1,14 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import "./contact.css";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 const Contact = () => {
+
+  useEffect(() => {
+    Aos.init({duration:1000});
+  },[]);
 
     const form = useRef();
 
@@ -22,10 +28,10 @@ const Contact = () => {
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title">Get in Touch</h2>
-      <span className="section__subtitle">Contact me</span>
+      <h2 className="section__title" data-aos="fade-up">Get in Touch</h2>
+      <span className="section__subtitle" data-aos="fade-up">Contact me</span>
 
-      <div className="contact__container container grid">
+      <div className="contact__container container grid" data-aos="fade-up">
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
 

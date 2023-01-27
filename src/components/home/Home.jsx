@@ -9,14 +9,14 @@ import "aos/dist/aos.css";
 const Home = () => {
 
     useEffect(() => {
-        Aos.init({duration:2000});
+        Aos.init({duration:1500});
       },[]);
 
   return (
     <>
-    <section className='home section' id = 'home' data-aos = 'zoom-out'>
+    <section className='home section' id = 'home' >
         <div className="home__container container grid">
-            <div className="home__content grid">
+            <div className="home__content grid" data-aos = 'zoom-out'>
 
                 <Social/>
                 <div className="home__img"></div>
