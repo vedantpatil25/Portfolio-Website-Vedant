@@ -8,7 +8,15 @@
     width: 250px;
     border-radius: 1.5rem;
     justify-self: center;
+    transition: .4s;
 }
+.about__img:hover{
+    width: 280px;
+    border-radius: 1.5rem;
+    justify-self: center;
+    transition: .4s;
+}
+
 
 .about__info{
     grid-template-columns: repeat(3,140px);
