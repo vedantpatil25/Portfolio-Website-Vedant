@@ -7,10 +7,9 @@ const Backend = () => {
 
 
     <div className="skills__content">
-        <h3 className="skills__title">Backend development</h3>
+        <h3 className="skills__title">Languages and Technologies</h3>
 
         <div className="skills__box">
-
 
 
 
@@ -21,8 +20,8 @@ const Backend = () => {
                 <div className="skills__data">
                 <i class='bx bx-badge-check'></i>
                 <div>
-                    <h3 className="skills__name">php</h3>
-                    <span className='skills__level'>basic</span>
+                    <h3 className="skills__name">C/C++</h3>
+                    <span className='skills__level'>Advanced</span>
                 </div>
                 </div>
 
@@ -31,8 +30,8 @@ const Backend = () => {
                 <div className="skills__data">
                 <i class='bx bx-badge-check'></i>
                 <div>
-                    <h3 className="skills__name">nodejs</h3>
-                    <span className='skills__level'>poor</span>
+                    <h3 className="skills__name">Python</h3>
+                    <span className='skills__level'>Basic</span>
                 </div>
                 </div>
 
@@ -40,8 +39,8 @@ const Backend = () => {
                 <div className="skills__data">
                 <i class='bx bx-badge-check'></i>
                 <div>
-                    <h3 className="skills__name">python</h3>
-                    <span className='skills__level'></span>
+                    <h3 className="skills__name">Java</h3>
+                    <span className='skills__level'>Basic</span>
                 </div>
                 </div>
 
@@ -59,7 +58,25 @@ const Backend = () => {
                 <div className="skills__data">
                 <i class='bx bx-badge-check'></i>
                 <div>
-                    <h3 className="skills__name">MySql</h3>
+                    <h3 className="skills__name">Git/GitHub</h3>
+                    <span className='skills__level'>Intermediate</span>
+                </div>
+                </div>
+                
+
+
+                <div className="skills__data">
+                <i class='bx bx-badge-check'></i>
+                <div>
+                    <h3 className="skills__name">Figma</h3>
+                    <span className='skills__level'>basic</span>
+                </div>
+                </div>
+
+                <div className="skills__data">
+                <i class='bx bx-badge-check'></i>
+                <div>
+                    <h3 className="skills__name">Firebase</h3>
                     <span className='skills__level'>basic</span>
                 </div>
                 </div>

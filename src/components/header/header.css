@@ -127,7 +127,7 @@ for smaller devices */
     }
 
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .header
     {
         background-image: linear-gradient(rgb(0,0,0,0) , rgb(104,91,164,.5));
