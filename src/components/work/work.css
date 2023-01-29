@@ -26,7 +26,7 @@
 
 .work__container
 {
-    grid-template-columns: repeat(2,max-content);
+    grid-template-columns: repeat(3,1fr);
     gap: 3rem;
     justify-content: center;
 }
@@ -62,7 +62,7 @@
 .work__button
 {
     color: var(--text-color);
-    font-size: var(--small-font-size);
+    font-size: 15px;
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
@@ -71,14 +71,14 @@
 
 .work__button-icon
 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: 0.3s;
 }
 
 .work__button:hover
 {
-    font-size: 1.25rem;
-    color: rgb(134, 84, 134);
+    font-size: 1.2rem;
+    color: rgb(113, 91, 209);
 }
 
 
@@ -135,4 +135,11 @@
     {
         font-size: var(--small-font-size);
     }
+  }
+  .project_tech{
+    font-size: var(--tiny-font-size);
+    background-color: rgb(134, 84, 134);
+    color: white;
+    border-radius: 7px;
+    padding: 2px;
   }
