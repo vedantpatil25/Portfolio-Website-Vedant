@@ -1,5 +1,4 @@
 import React, { useRef, useEffect } from 'react';
-import emailjs from '@emailjs/browser';
 import "./contact.css";
 import Aos from 'aos';
 import "aos/dist/aos.css";
@@ -12,16 +11,6 @@ const Contact = () => {
 
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_7ziy4ea', 'template_3wbm69i',"template_3wbm69i", form.current, 'kjcDcf5Loya2qdxfI')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
 
 
 
@@ -86,7 +75,7 @@ const Contact = () => {
 
         <div className="contact__content">
           <h3 className="contact__title" data-aos="fade-up">Share Your Ideas</h3>
-          <form ref={form} onSubmit={sendEmail} className="contact__form">
+          <form className="contact__form" action='https://formspree.io/f/mzbqdgop' method='POST'>
             <div className="contact__form-div" data-aos="fade-up">
               <label className="contact__form-tag">Name</label>
               <input
@@ -94,6 +83,7 @@ const Contact = () => {
                 name="name"
                 className="contact__form-input"
                 placeholder="Insert your name"
+                required
               />
             </div>
 
@@ -104,22 +94,25 @@ const Contact = () => {
                 name="email"
                 className="contact__form-input"
                 placeholder="Insert your email"
+                required
               />
             </div>
 
             <div className="contact__form-div contact__form-area" data-aos="fade-up">
               <label className="contact__form-tag ">Description</label>
 
-              <textarea
+              <input
+                type="textarea"
                 name="description"
                 cols="30"
                 rows="10"
                 placeholder="Write your Idea"
                 className="contact__form-input"
-              ></textarea>
+                required
+              ></input>
             </div>
 
-            <button
+            <button type='submit' value="send"
               className="button button--flex" data-aos="fade-up"
             >
               Click here to Send
