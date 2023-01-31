@@ -2,8 +2,10 @@ import Work1 from "../../assets/pr_food.png"
 import Work2 from "../../assets/pr_travel.png"
 import Work3 from "../../assets/pr_calculator.png"
 import Work4 from "../../assets/pr_lottery.jpg"
-import Work5 from "../../assets/pr_webpro.png"
-import Work6 from "../../assets/pr_form.png"
+import Work5 from "../../assets/pr_word.png"
+import Work6 from "../../assets/pr_webpro.png"
+import Work7 from "../../assets/pr_form.png"
+
 
 
 
@@ -16,6 +18,7 @@ export const projectData =
         category: "web",
         tech : " React.js | CSS ",
         link : "https://food-court-12b40.web.app/",
+        github : "https://github.com/vedantpatil25/Food-App",
       },
       {
         id: 2,
@@ -24,6 +27,7 @@ export const projectData =
         category: "app",
         tech : " Java Swing | SQL | JDBC Connectivity ",
         link : "https://github.com/vedantpatil25/Ticket-booking-system",
+        github : "https://github.com/vedantpatil25/Ticket-booking-system",
       },
       {
         id: 3,
@@ -32,6 +36,7 @@ export const projectData =
         category: "design",
         tech : " HTML | CSS | Javascript ",
         link : "https://calculator-by-vedant.netlify.app/",
+        github : "https://github.com/vedantpatil25/Calculator-App",
       },
       {
         id: 4,
@@ -40,22 +45,34 @@ export const projectData =
         category: "app",
         tech : " Solidity | React | Typescript",
         link : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
+        github : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
       },
       {
         id: 5,
         image: Work5,
-        title: "Courses Static Website",
-        category: "web",
-        tech : " HTML | CSS ",
-        link : "https://webpro-courses.netlify.app/",
+        title: " Word Counter",
+        category: "app",
+        tech : " HTML | CSS | Javascript ",
+        link : "https://github.com/vedantpatil25/Word-counter",
+        github : "https://github.com/vedantpatil25/Word-counter",
       },
       {
         id: 6,
         image: Work6,
+        title: "Courses Static Website",
+        category: "web",
+        tech : " HTML | CSS ",
+        link : "https://webpro-courses.netlify.app/",
+        github : "https://github.com/vedantpatil25/webPro-courses-static-website",
+      },
+      {
+        id: 7,
+        image: Work7,
         title: "Survey Form",
         category: "web",
         tech : " HTML | CSS ",
         link : "https://form-by-vedant.netlify.app",
+        github : "https://github.com/vedantpatil25/Form",
       },
 ]
 
