@@ -56,7 +56,6 @@
 {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
-    margin-bottom: var(--mb-0-5);
 }
 
 .work__button
@@ -138,8 +137,8 @@
   }
   .project_tech{
     font-size: var(--tiny-font-size);
-    background-color: rgb(134, 84, 134);
+    background-color: rgba(134, 84, 134, 0.913);
     color: white;
     border-radius: 7px;
-    padding: 2px;
+    padding: 2.2px;
   }
