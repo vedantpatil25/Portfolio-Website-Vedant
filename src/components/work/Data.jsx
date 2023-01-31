@@ -54,7 +54,7 @@ export const projectData =
         category: "app",
         tech : " HTML | CSS | Javascript ",
         link : "https://github.com/vedantpatil25/Word-counter",
-        github : "https://github.com/vedantpatil25/Word-counter",
+        github : "https://word-counter-by-vedant.netlify.app/",
       },
       {
         id: 6,
