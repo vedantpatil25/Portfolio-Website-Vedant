@@ -1,13 +1,10 @@
 import Work1 from "../../assets/pr_food.png"
 import Work2 from "../../assets/pr_travel.png"
 import Work3 from "../../assets/pr_calculator.png"
-import Work4 from "../../assets/pr_lottery.jpg"
+import Work4 from "../../assets/pr_type.png"
+import Work6 from "../../assets/pr_lottery.jpg"
 import Work5 from "../../assets/pr_word.png"
-import Work6 from "../../assets/pr_webpro.png"
-import Work7 from "../../assets/pr_form.png"
-
-
-
+import Work7 from "../../assets/pr_webpro.png"
 
 export const projectData = 
 [
@@ -41,11 +38,11 @@ export const projectData =
       {
         id: 4,
         image: Work4,
-        title: " Lottery System |  Blockchain ",
-        category: "app",
-        tech : " Solidity | React | Typescript",
-        link : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
-        github : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
+        title: "TypingiT - Practice Typing",
+        category: "web",
+        tech : " HTML | CSS | Javascript",
+        link : "https://typingt-by-vedant.netlify.app/",
+        github : "https://github.com/vedantpatil25/TypingiT-Typing-Game",
       },
       {
         id: 5,
@@ -59,20 +56,20 @@ export const projectData =
       {
         id: 6,
         image: Work6,
+        title: " Lottery System |  Blockchain ",
+        category: "app",
+        tech : " Solidity | React | Typescript",
+        link : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
+        github : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
+      },
+      {
+        id: 7,
+        image: Work7,
         title: "Courses Static Website",
         category: "web",
         tech : " HTML | CSS ",
         link : "https://webpro-courses.netlify.app/",
         github : "https://github.com/vedantpatil25/webPro-courses-static-website",
-      },
-      {
-        id: 7,
-        image: Work7,
-        title: "Survey Form",
-        category: "web",
-        tech : " HTML | CSS ",
-        link : "https://form-by-vedant.netlify.app",
-        github : "https://github.com/vedantpatil25/Form",
       },
 ]
 
@@ -94,3 +91,5 @@ export const projectsNav =
         name : "design"
     },
 ]
+
+
