@@ -4,7 +4,8 @@ import Work3 from "../../assets/pr_calculator.png"
 import Work4 from "../../assets/pr_type.png"
 import Work6 from "../../assets/pr_lottery.jpg"
 import Work5 from "../../assets/pr_word.png"
-import Work7 from "../../assets/pr_webpro.png"
+import Work7 from "../../assets/pr_jokes.png"
+import Work8 from "../../assets/pr_webpro.png"
 
 export const projectData = 
 [
@@ -65,6 +66,16 @@ export const projectData =
       {
         id: 7,
         image: Work7,
+        title: "Jokes using API",
+        category: "web",
+        tech : " HTML | CSS | Javascript | API ",
+        link : "https://jokes-using-api.netlify.app/",
+        github : "https://github.com/vedantpatil25/Jokes-Using-API",
+      },
+
+      {
+        id: 8,
+        image: Work8,
         title: "Courses Static Website",
         category: "web",
         tech : " HTML | CSS ",

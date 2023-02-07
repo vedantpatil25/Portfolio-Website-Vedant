@@ -5,8 +5,7 @@
     top: 0;
     bottom: 0;
     z-index: var(--z-fixed);
-    background-image: linear-gradient(rgb(104,91,164,.5),rgb(0,0,0,0) );
-    
+    background-image: linear-gradient(rgb(104, 91, 164),hsl(var(--hue), var(--sat), 98%));
 
 }
 
