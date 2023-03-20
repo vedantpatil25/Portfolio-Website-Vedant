@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 const Social = () => {
 
         useEffect(() => {
-                Aos.init({duration:1000});
+                Aos.init({duration:500});
               },[]);
 
 

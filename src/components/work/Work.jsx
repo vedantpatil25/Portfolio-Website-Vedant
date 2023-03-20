@@ -14,7 +14,6 @@ const Work = () => {
     <section className='work section' id = "portfolio" data-aos="fade-up">
         <h2 className="section__title" data-aos="fade-up">Portfolio</h2>
         <span className="section__subtitle" data-aos="fade-up">Projects</span>
-
         <Works/>
     </section>
   )

@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 const Contact = () => {
 
   useEffect(() => {
-    Aos.init({duration:1000});
+    Aos.init({duration:500});
   },[]);
 
     const form = useRef();

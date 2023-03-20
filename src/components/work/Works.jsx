@@ -1,8 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
-import { useState } from "react";
 import { projectData } from "./Data";
-import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 import Aos from 'aos';
 import "aos/dist/aos.css";
