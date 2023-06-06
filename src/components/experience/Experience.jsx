@@ -1,6 +1,9 @@
 import React from "react";
+import { useEffect } from "react";
 import "./Experience.css";
 import { Data } from "./Data";
+import Aos from 'aos';
+import "aos/dist/aos.css";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,8 +18,15 @@ import "swiper/css/navigation";
 import { Pagination, Navigation, Autoplay, Mousewheel } from "swiper";
 
 const Experience = () => {
+
+
+  useEffect(() => {
+    Aos.init({duration:500});
+  },[]);
+
+
   return (
-    <section className="experience container section">
+    <section className="experience container section " data-aos = 'fade-up'>
       <h2 className="section__title">Experince</h2>
       <span className="section__subtitle">
         Professional Journey and Accomplishments
