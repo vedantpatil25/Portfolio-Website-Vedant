@@ -6,6 +6,7 @@ import Skills from './components/skills/Skills';
 import Qualification from './components/qualification/Qualification';
 import Contact from './components/contact/Contact';
 import Work from './components/work/Work';
+import Experience from './components/experience/Experience';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
     <main className='main'>
       <Home/>
       <About/>
+      <Experience/>
       <Skills/>
       {/* <Qualification/> */}
       <Work/>

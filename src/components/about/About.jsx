@@ -2,7 +2,7 @@ import React,{useEffect} from 'react'
 import "./about.css"
 import Info from './Info';
 import AboutImg from "../../assets/profile.jpg";
-import CV from "../../assets/Vedant-resume.pdf"
+// import CV from "../../assets/Vedant-resume.pdf"
 import Aos from 'aos';
 import "aos/dist/aos.css";
 

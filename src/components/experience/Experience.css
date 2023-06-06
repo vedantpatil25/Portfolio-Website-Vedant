@@ -1,0 +1,63 @@
+.experience__container {
+    width: 750px;
+}
+
+.experience__card {
+    background-color: var(--container-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem 4rem;
+    border-radius: 1.5rem;
+    margin-bottom: var(--mb-3);
+
+}
+
+.experience__img {
+    width: 60px;
+    margin-bottom: var(--mb-1);
+}
+
+.experience__name {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-0-25);
+}
+
+.experience__description {
+    font-size: var(--small-font-size);
+}
+
+.date_location{
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+/* Swiper Class */
+.swiper-pagination-bullet{
+    background-color: var(--text-color) !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: rgb(134, 84, 134) !important;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color: rgb(134, 84, 134) !important;
+    right: 1000px;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .experience__container{
+        width: initial;
+    }
+    .experience__card{
+        padding: 1.25rem 3rem;
+    }
+}
+
+
+
+
+

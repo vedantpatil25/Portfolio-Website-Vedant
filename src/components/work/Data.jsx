@@ -19,6 +19,7 @@ export const projectData =
         tech : " React.js | CSS | Firebase",
         link : "https://vedphotomake.web.app/",
         github : "https://github.com/vedantpatil25/vedphotomake",
+        description : ""
       },
       {
         id: 2,
@@ -37,6 +38,7 @@ export const projectData =
         tech : " Solidity | React | Typescript | Thirdweb",
         link : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
         github : "https://github.com/vedantpatil25/Blockchain-Lottery-System",
+        description : "This is a blockchain-based lottery system built using Next.js and Tailwind CSS. The system allows users to buy lottery tickets and participate in the lottery. The system is built on the Ethereum blockchain using smart contracts.",
       },
       {
         id: 4,
