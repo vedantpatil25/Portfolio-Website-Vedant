@@ -55,7 +55,7 @@ const Experience = () => {
       }}
       modules={[Pagination, Navigation, Autoplay, Mousewheel]}
       >
-        {Data.map(({ id, image, title, description, date , location, position }) => {
+        {Data.map(({ id, image, title, description, date , location, position, skills }) => {
           return (
             <SwiperSlide className="experience__card">
               <div className="date_location">
@@ -68,6 +68,8 @@ const Experience = () => {
               <h3 className="experience__name">{title}</h3>
               <h4>{position}</h4>
               <p className="experience__description">{description}</p>
+              <br/>
+              <h4> Skills : <span className="experience__skills">{skills}</span></h4>
             </SwiperSlide>
           );
         })}

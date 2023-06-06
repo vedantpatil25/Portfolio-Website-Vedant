@@ -33,6 +33,11 @@
     flex-wrap: wrap;
 }
 
+span.experience__skills{
+    font-size: var(--small-font-size);
+    font-weight: 200;
+}
+
 /* Swiper Class */
 .swiper-pagination-bullet{
     background-color: var(--text-color) !important;
