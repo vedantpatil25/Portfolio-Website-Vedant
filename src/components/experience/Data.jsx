@@ -6,11 +6,11 @@ export const Data = [
       id: 1,
       image: Image1,
       title: "Barclays",
-      description: "Currently working as a Summer Intern. My role is Intern Explorer (Developer)",
-      date : "06/23 - Present",
+      description: "During my Barclays internship, I built a Spring Boot web app with REST APIs called Data Migration Utility. It moved multilingual data from DB2 to Microsoft SQL efficiently, with adjustable constraints, batch sizes, and real-time progress tracking. I also developed an Index Keys Comparison tool and a Data Validation tool, offering customizable sampling and downloadable output reports. This enhanced my proficiency in full-stack development.",
+      date : "06/23 - 08/23",
       location : "Pune, Maharashtra",
-      position : "Intern Explorer (Developer)",
-      skills : "",
+      position : "Developer Intern",
+      skills : "Spring Boot | Spring JDBC | Java | DB2 | MS SQL | HTML | CSS | JavaScript | Rest APIs",
     },
     {
       id: 2,
@@ -20,6 +20,6 @@ export const Data = [
       date : "04/23 - 06/23",
       location : "Remote",
       position : "Web Development Intern",
-      skills : "HTML CSS Javascript ReactJS",
+      skills : "HTML | CSS | Bootstrap | Javascript | ReactJS ",
     },
   ];
