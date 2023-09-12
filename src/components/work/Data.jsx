@@ -8,6 +8,8 @@ import pr_word from "../../assets/pr_word.png"
 import pr_jokes from "../../assets/pr_jokes.png"
 import pr_todo from "../../assets/pr_todo.png"
 import pr_webpro from "../../assets/pr_webpro.png"
+import pr_jobportal from "../../assets/pr_jobportal.png"
+
 
 export const projectData = 
 [
@@ -23,6 +25,15 @@ export const projectData =
       },
       {
         id: 2,
+        image: pr_jobportal,
+        title: "CareerConnect - Job Portal",
+        category: "web",
+        tech : " React.js | CSS ",
+        link : "https://careerconnectbyvedant.web.app/",
+        github : "https://github.com/vedantpatil25/career-connect",
+      },
+      {
+        id: 3,
         image: pr_travel,
         title: "Travel Booking System",
         category: "app",
@@ -31,7 +42,7 @@ export const projectData =
         github : "https://github.com/vedantpatil25/Ticket-booking-system",
       },
       {
-        id: 3,
+        id: 4,
         image: pr_lottery,
         title: " Lottery System |  Blockchain ",
         category: "app",
@@ -41,7 +52,7 @@ export const projectData =
         description : "This is a blockchain-based lottery system built using Next.js and Tailwind CSS. The system allows users to buy lottery tickets and participate in the lottery. The system is built on the Ethereum blockchain using smart contracts.",
       },
       {
-        id: 4,
+        id: 5,
         image: pr_type,
         title: "TypingiT - Practice Typing",
         category: "web",
@@ -50,7 +61,7 @@ export const projectData =
         github : "https://github.com/vedantpatil25/TypingiT-Typing-Game",
       },
       {
-        id: 5,
+        id: 6,
         image: pr_word,
         title: " Word Counter",
         category: "app",
@@ -59,7 +70,7 @@ export const projectData =
         github : "https://github.com/vedantpatil25/Word-counter",
       },
       {
-        id: 6,
+        id: 7,
         image: pr_todo,
         title: "To-do List",
         category: "web",
@@ -68,7 +79,7 @@ export const projectData =
         github : "https://github.com/vedantpatil25/To-do-List",
       },
       {
-        id: 7,
+        id: 8,
         image: pr_food,
         title: "Restaurant Menu",
         category: "web",
@@ -78,7 +89,7 @@ export const projectData =
       },
 
       {
-        id: 8,
+        id: 9,
         image: pr_jokes,
         title: "Jokes using API",
         category: "web",
@@ -88,7 +99,7 @@ export const projectData =
       },
 
       {
-        id: 9,
+        id: 10,
         image: pr_webpro,
         title: "Courses Static Website",
         category: "web",
@@ -97,7 +108,7 @@ export const projectData =
         github : "https://github.com/vedantpatil25/webPro-courses-static-website",
       },
       {
-        id: 10,
+        id: 11,
         image: pr_calculator,
         title: "Calculator",
         category: "design",
