@@ -24,7 +24,7 @@ useEffect(() => {
             <div className="about__data" data-aos = "fade-up">
                 <Info/>
 
-                <p className='about__description' data-aos ='fade-up'>My name is Vedant Patil and I am a third year computer engineering student at Pimpri Chinchwad College of Engineering in Pune. 
+                <p className='about__description' data-aos ='fade-up'>My name is Vedant Patil and I am a final year Computer Engineering Student at Pimpri Chinchwad College of Engineering in Pune. 
                 </p>
                 <a download=""  className="button button--flex" data-aos ='fade-up'>Download CV
                 {/* add ....  href = {CV} ....after download="" in above line */}
