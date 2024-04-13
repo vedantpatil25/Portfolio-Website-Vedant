@@ -1,43 +1,45 @@
-import React, { useRef, useEffect } from 'react';
-import "./contact.css";
-import Aos from 'aos';
-import "aos/dist/aos.css";
+import React, { useRef, useEffect } from 'react'
+import './contact.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
-
   useEffect(() => {
-    Aos.init({duration:500});
-  },[]);
+    Aos.init({ duration: 500 })
+  }, [])
 
-    const form = useRef();
-
-
-
-
+  const form = useRef()
 
   return (
     <section className="contact section" id="contact">
-      <h2 className="section__title" data-aos="fade-up">Get in Touch</h2>
-      <span className="section__subtitle" data-aos="fade-up">Contact me</span>
+      <h2 className="section__title" data-aos="fade-up">
+        Get in Touch
+      </h2>
+      <span className="section__subtitle" data-aos="fade-up">
+        Contact me
+      </span>
 
-      <div className="contact__container container grid" >
+      <div className="contact__container container grid">
         <div className="contact__content">
-          <h3 className="contact__title" data-aos="fade-up">Connect to me</h3>
+          <h3 className="contact__title" data-aos="fade-up">
+            Connect to me
+          </h3>
 
           <div className="contact__info">
             <div className="contact__card" data-aos="fade-up">
-              <i class="bx bx-envelope contact__card-icon" ></i>
+              <i class="bx bx-envelope contact__card-icon"></i>
 
-              <h3 className="contact__card-title" >Email</h3>
+              <h3 className="contact__card-title">Email</h3>
               <span className="conatact__card-data">
                 vedantpatil2002@gmail.com
               </span>
-<br />
+              <br />
               <a
                 href="mailto:vedantpatil2002@gmail.com"
-                className="contact__button" target="_blank"
+                className="contact__button"
+                target="_blank"
               >
-                Write me{" "}
+                Write me{' '}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -46,12 +48,13 @@ const Contact = () => {
               <i class="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-titlle">Whatsapp</h3>
               <span className="conatact__card-data">+919302793438</span>
-<br />
+              <br />
               <a
                 href="https://wa.me/919302793438?text=Hello%20Vedant%20!"
-                className="contact__button" target="_blank"
+                className="contact__button"
+                target="_blank"
               >
-                Write me{" "}
+                Write me{' '}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -61,12 +64,13 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="conatact__card-data">Vedant Patil</span>
-<br />
+              <br />
               <a
                 href="https://www.linkedin.com/in/vedant-patil-047194224/"
-                className="contact__button" target="_blank"
+                className="contact__button"
+                target="_blank"
               >
-                Write me{" "}
+                Write me{' '}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -74,8 +78,14 @@ const Contact = () => {
         </div>
 
         <div className="contact__content">
-          <h3 className="contact__title" data-aos="fade-up">Share Your Ideas</h3>
-          <form className="contact__form" action='https://formspree.io/f/mzbqdgop' method='POST'>
+          <h3 className="contact__title" data-aos="fade-up">
+            Share Your Ideas
+          </h3>
+          <form
+            className="contact__form"
+            action="https://formspree.io/f/mzbqdgop"
+            method="POST"
+          >
             <div className="contact__form-div" data-aos="fade-up">
               <label className="contact__form-tag">Name</label>
               <input
@@ -98,7 +108,10 @@ const Contact = () => {
               />
             </div>
 
-            <div className="contact__form-div contact__form-area" data-aos="fade-up">
+            <div
+              className="contact__form-div contact__form-area"
+              data-aos="fade-up"
+            >
               <label className="contact__form-tag ">Description</label>
 
               <input
@@ -112,11 +125,13 @@ const Contact = () => {
               ></input>
             </div>
 
-            <button type='submit' value="send"
-              className="button button--flex" data-aos="fade-up"
+            <button
+              type="submit"
+              value="send"
+              className="button button--flex"
+              data-aos="fade-up"
             >
               Click here to Send
-              
               <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -134,14 +149,12 @@ const Contact = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
-
             </button>
-
           </form>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

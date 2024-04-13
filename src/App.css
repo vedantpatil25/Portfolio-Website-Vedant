@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 
@@ -17,7 +17,7 @@
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
-  --body-font: "Poppins", sans-serif;
+  --body-font: 'Poppins', sans-serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
@@ -150,7 +150,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: rgb(104,91,164);
+  background-color: rgb(104, 91, 164);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -171,13 +171,12 @@ img {
   border-radius: 20px;
 }
 
-.title__vedant{
+.title__vedant {
   font-weight: lighter;
   color: rgb(134, 84, 134);
 }
-.title__patil{
+.title__patil {
   font-weight: lighter;
-
 }
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
@@ -212,7 +211,6 @@ img {
   }
 }
 
-
 /* For small devices */
 @media screen and (max-width: 350px) {
   :root {
@@ -222,5 +220,5 @@ img {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
-  } 
+  }
 }
