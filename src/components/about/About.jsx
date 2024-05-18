@@ -26,8 +26,11 @@ const About = () => {
           <Info />
 
           <p className="about__description" data-aos="fade-up">
-            My name is Vedant Patil and I am a final year Computer Engineering
-            Student at Pimpri Chinchwad College of Engineering in Pune.
+            I'm Vedant Patil, a Computer Engineering graduate and full-stack web
+            developer with experience in MERN, MEAN, and Spring Boot. I've
+            interned at Flytbase, Barclays, and PHN Technology, building
+            projects that enhance user experiences. Let's connect and
+            collaborate!
           </p>
           <a download="" className="button button--flex" data-aos="fade-up">
             Download CV

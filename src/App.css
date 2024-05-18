@@ -114,6 +114,10 @@ img {
   height: auto;
 }
 
+p {
+  text-align: justify;
+}
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 6rem 0 2rem;
