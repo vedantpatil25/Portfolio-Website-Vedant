@@ -93,7 +93,7 @@ const Data = () => {
         <span className="home__description-highlight">web development</span>,
         worked in {''}
         <span className="home__description-highlight">
-          MERN, MEAN, and Spring Boot.
+          MERN, MEAN, and Spring Boot.{' '}
         </span>
         I've interned at{' '}
         <span className="home__description-highlight">
