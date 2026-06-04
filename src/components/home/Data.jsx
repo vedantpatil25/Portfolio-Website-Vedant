@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Data = () => {
   useEffect(() => {
-    Aos.init({ duration: 500 })
-  }, [])
+    Aos.init({ duration: 500 });
+  }, []);
 
   return (
     <div className="home__data">
@@ -85,23 +85,26 @@ const Data = () => {
         <div className="subline">Developer</div>
       </h3>
       <p className="home__description" data-aos="fade-up">
-        Hey, there! My name is Vedant and I am a 22-year-old{' '}
+        Hey, there! My name is Vedant and I am a 23-year-old{" "}
         <span className="home__description-highlight">
-          Computer Engineering Graduate
+          Computer Engineering Graduate{" "}
         </span>
-        . I am particularly passionate about{' '}
+        currently working at{" "}
+        <span className="home__description-highlight">Barclays</span> as a{" "}
+        <span className="home__description-highlight">developer</span>. I am
+        particularly passionate about{" "}
         <span className="home__description-highlight">web development</span>,
-        worked in {''}
+        worked in {""}
         <span className="home__description-highlight">
-          MERN, MEAN, and Spring Boot.{' '}
+          MERN, MEAN, and Spring Boot.{" "}
         </span>
-        I've interned at{' '}
+        I've interned at{" "}
         <span className="home__description-highlight">
           Flytbase, Barclays, and PHN Technology
         </span>
-        , building projects that enhance user experiences. {' '}
+        , building projects that enhance user experiences.{" "}
         <span className="home__description-highlight">
-          Let's connect and collaborate!{' '}
+          Let's connect and collaborate!{" "}
         </span>
       </p>
 
@@ -130,7 +133,7 @@ const Data = () => {
         </svg>
       </a>
     </div>
-  )
-}
+  );
+};
 
-export default Data
+export default Data;

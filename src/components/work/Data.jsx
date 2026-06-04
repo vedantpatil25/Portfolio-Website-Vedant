@@ -9,8 +9,30 @@ import pr_jokes from '../../assets/pr_jokes.png'
 import pr_todo from '../../assets/pr_todo.png'
 import pr_webpro from '../../assets/pr_webpro.png'
 import pr_jobportal from '../../assets/pr_jobportal.png'
+import pr_sahil_travels from '../../assets/pr_sahil_travels.png'
+import pr_evergreen from '../../assets/pr_evergreen.png'
 
 export const projectData = [
+  {
+    id: 13,
+    image: pr_evergreen,
+    title: 'E-commerce Website',
+    category: 'web',
+    tech: ' ReactJS | Spring Boot | Razorpay | JWT | Spring Security | MongoDB',
+    link: 'https://evergreenagro.netlify.app/',
+    github: 'https://github.com/vedantpatil25/evergreen-agro',
+    description: '',
+  },
+  {
+    id: 12,
+    image: pr_sahil_travels,
+    title: 'Tours and Travels Website',
+    category: 'web',
+    tech: ' React.js | CSS | Firebase',
+    link: 'https://sahiltoursandtravels-16035.web.app/',
+    github: 'https://github.com/vedantpatil25/sahil-tours-travels',
+    description: '',
+  },
   {
     id: 1,
     image: pr_vedphotomake,

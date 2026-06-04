@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react'
-import './about.css'
-import Info from './Info'
-import AboutImg from '../../assets/profile.jpg'
+import React, { useEffect } from "react";
+import "./about.css";
+import Info from "./Info";
+import AboutImg from "../../assets/profile.jpg";
 // import CV from "../../assets/Vedant-resume.pdf"
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
   useEffect(() => {
-    Aos.init({ duration: 500 })
-  }, [])
+    Aos.init({ duration: 500 });
+  }, []);
 
   return (
     <div className="about section" id="about">
@@ -26,7 +26,7 @@ const About = () => {
           <Info />
 
           <p className="about__description" data-aos="fade-up">
-            I'm Vedant Patil, a Computer Engineering graduate and full-stack web
+            I'm Vedant Patil, a Computer Engineering currently working at Barclays and full-stack web
             developer with experience in MERN, MEAN, and Spring Boot. I've
             interned at Flytbase, Barclays, and PHN Technology, building
             projects that enhance user experiences. Let's connect and
@@ -64,7 +64,7 @@ const About = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

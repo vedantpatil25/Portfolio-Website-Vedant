@@ -1,14 +1,14 @@
-import React, { useRef, useEffect } from 'react'
-import './contact.css'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+import React, { useRef, useEffect } from "react";
+import "./contact.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
   useEffect(() => {
-    Aos.init({ duration: 500 })
-  }, [])
+    Aos.init({ duration: 500 });
+  }, []);
 
-  const form = useRef()
+  const form = useRef();
 
   return (
     <section className="contact section" id="contact">
@@ -39,12 +39,12 @@ const Contact = () => {
                 className="contact__button"
                 target="_blank"
               >
-                Write me{' '}
+                Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
 
-            <div className="contact__card" data-aos="fade-up">
+            {/* <div className="contact__card" data-aos="fade-up">
               <i class="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-titlle">Whatsapp</h3>
               <span className="conatact__card-data">+919302793438</span>
@@ -54,10 +54,10 @@ const Contact = () => {
                 className="contact__button"
                 target="_blank"
               >
-                Write me{' '}
+                Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
-            </div>
+            </div> */}
 
             <div className="contact__card" data-aos="fade-up">
               <i class="bx bxl-linkedin contact__card-icon"></i>
@@ -70,7 +70,7 @@ const Contact = () => {
                 className="contact__button"
                 target="_blank"
               >
-                Write me{' '}
+                Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
@@ -154,7 +154,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

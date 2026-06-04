@@ -9,7 +9,7 @@ export const Data = [
     title: 'Barclays - Full time',
     description:
       'Currently working as a Developer in the Mercury Team under the Research IT Department at Barclays.',
-    date: '07/23 - Present',
+    date: '07/24 - Present',
     location: 'Pune, Maharashtra',
     position: 'Developer',
     skills: 'Spring Boot | Java | MS SQL | Angular',
